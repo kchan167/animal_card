@@ -1,0 +1,107 @@
+html {
+  /* font family for all browser */
+  font-family: Helvetica, Arial, sans-serif;
+  /* text color */
+  color: rgb(230, 230, 230);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* styling the animal card */
+.animal-card {
+  /* center the text inside the animal card */
+  text-align: center;
+  /* center the animal card in the website */
+  margin-left: auto;
+  margin-right: auto;
+  /* set the width of animal card as 300px */
+  width: 300px;
+  /* set border of the animal card */
+  border: 1px solid rgb(209, 213, 204);
+  /* styling corners of the card border */
+  border-radius: 10px;
+  /* editing box shadow here */
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  /* editing background color here */
+  background-color: rgb(145, 184, 161);
+  /* editing the inner space between the content of animal card and the border of animal card; */
+  padding: 10px;
+}
+
+/* style for the animal protrait */
+#dog-image {
+  /* sizing the image to 300px */
+  width: 300px;
+  /* edit the border of image */
+  border: 1px solid rgb(209, 213, 204);
+  /* styling coners of the card border */
+  border-radius: 10px;
+  /* space between the image border and the card border */
+  margin: 5px 0;
+}
+
+/* style for the card header */
+#header {
+  /* space between the text content and the text border */
+  padding: 5px;
+  /* style for the text border */
+  border: 1px solid rgb(209, 213, 204);
+  /* style for corners of the text border */
+  border-radius: 10px;
+  /* space between the text border and the card border */
+  margin: 5px 0;
+  /* edit text size */
+  font-size: .7em;
+}
+
+/* style for the table content for the animal card */
+.animal-fact {
+  /* space between the content and the content border */
+  padding: 5px;
+  /* space between the content border and the card border */
+  margin: 5px 0;
+  /* style for the content border */
+  border: 1px solid rgb(209, 213, 204);
+  /* style for corners of the content border */
+  border-radius: 10px;
+  /* color of the table */
+  background-color: rgb(114, 184, 158);
+}
+
+/* style for the list inside the table */
+#dog-facts-list {
+  /* no bullet point for the list */
+  list-style: none;
+}
+
+/* style for the label of the list */
+.label {
+  /* make the texts bold */
+  font-weight: bold;
+}
+
+/* style for the content inside the list */
+.list-content {
+  text-align: left;
+  /* adjust the space between the list border and the table border */
+  margin-left: -30px;
+}
+
+/* style for the interesting fact  */
+.dog-interesting-fact-italic {
+  /* italicize text */
+  font-style: italic;
+  /* space between the text border and the table border*/
+  margin: 4px;
+}
+
+/* style for the detail description inside the table */
+#dog-description {
+  text-align: left;
+  /* space between the text and the text border */
+  padding: 5px;
+  /* space between the text border and the card border */
+  margin: 5px;
+}
